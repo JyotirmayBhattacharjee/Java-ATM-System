@@ -49,7 +49,7 @@ public class Account {
 
     public void calcSavingDeposit(double amount){
         savingBalance = (savingBalance + amount);
-    }
+    } 
 
     public void getCheckingWithdrawInput() {
         System.out.println("Checking Account balance: " + moneyFormat.format(checkingBalance));
